@@ -1,6 +1,6 @@
 # OBSLocationPicker-for-iOS
 
-Simple core iOS based location search and picker controller for mobile applictions.
+Core iOS based location search and picker controller for mobile applictions.
 
 # Screenshots
 
