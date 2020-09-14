@@ -73,6 +73,9 @@
 		15A38F7B25093C3800D4BDE6 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15A38F6825093C3800D4BDE6 /* Poppins-MediumItalic.ttf */; };
 		15A38F7F25093E8200D4BDE6 /* CurrentLocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A38F7E25093E8200D4BDE6 /* CurrentLocationCell.swift */; };
 		15FBD2E62509004E0051A773 /* AppUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FBD2E52509004E0051A773 /* AppUtils.swift */; };
+		CC0939FE250F5B8B000E05EE /* locationpickersample.gif in Resources */ = {isa = PBXBuildFile; fileRef = CC0939FD250F5B8B000E05EE /* locationpickersample.gif */; };
+		CC093A01250F5BA1000E05EE /* screen1.png in Resources */ = {isa = PBXBuildFile; fileRef = CC0939FF250F5BA1000E05EE /* screen1.png */; };
+		CC093A02250F5BA1000E05EE /* screen2.png in Resources */ = {isa = PBXBuildFile; fileRef = CC093A00250F5BA1000E05EE /* screen2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -145,6 +148,9 @@
 		15A38F6825093C3800D4BDE6 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
 		15A38F7E25093E8200D4BDE6 /* CurrentLocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentLocationCell.swift; sourceTree = "<group>"; };
 		15FBD2E52509004E0051A773 /* AppUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtils.swift; sourceTree = "<group>"; };
+		CC0939FD250F5B8B000E05EE /* locationpickersample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = locationpickersample.gif; sourceTree = "<group>"; };
+		CC0939FF250F5BA1000E05EE /* screen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen1.png; sourceTree = "<group>"; };
+		CC093A00250F5BA1000E05EE /* screen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +192,7 @@
 		157A836C2508B780008C0DF8 /* OBSLocationSearch-for-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				CC0939FC250F5B7E000E05EE /* ScreenShots */,
 				15A38F5025091F1A00D4BDE6 /* SupportFiles */,
 				15FBD2E4250900300051A773 /* AppUtils */,
 				159589322508F747000F0FA0 /* Constants */,
@@ -345,6 +352,16 @@
 			path = AppUtils;
 			sourceTree = "<group>";
 		};
+		CC0939FC250F5B7E000E05EE /* ScreenShots */ = {
+			isa = PBXGroup;
+			children = (
+				CC0939FF250F5BA1000E05EE /* screen1.png */,
+				CC093A00250F5BA1000E05EE /* screen2.png */,
+				CC0939FD250F5B8B000E05EE /* locationpickersample.gif */,
+			);
+			path = ScreenShots;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -423,8 +440,11 @@
 				157A83752508B780008C0DF8 /* Main.storyboard in Resources */,
 				15A38F7A25093C3800D4BDE6 /* Poppins-Italic.ttf in Resources */,
 				15A38F6C25093C3800D4BDE6 /* Poppins-BoldItalic.ttf in Resources */,
+				CC093A02250F5BA1000E05EE /* screen2.png in Resources */,
 				15A38F6E25093C3800D4BDE6 /* Poppins-Medium.ttf in Resources */,
+				CC0939FE250F5B8B000E05EE /* locationpickersample.gif in Resources */,
 				15A38F7B25093C3800D4BDE6 /* Poppins-MediumItalic.ttf in Resources */,
+				CC093A01250F5BA1000E05EE /* screen1.png in Resources */,
 				15A38F7125093C3800D4BDE6 /* Poppins-ExtraBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -624,6 +644,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "OBSLocationSearch-for-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -641,6 +662,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "OBSLocationSearch-for-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
