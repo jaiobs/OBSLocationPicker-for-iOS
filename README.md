@@ -29,6 +29,6 @@ Core iOS based location search and picker controller for mobile applictions.
 
 
 # Developer
-- Optisol Business Solutions Private Limited
+- Optisol Business Solutions
 
 
